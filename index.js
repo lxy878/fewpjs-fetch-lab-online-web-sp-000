@@ -4,7 +4,7 @@ function fetchBooks() {
     resp.json();
   }).then(json => {
     console.log(json)
-    renderBooks(json);
+    // renderBooks(json);
   })
 }
 
